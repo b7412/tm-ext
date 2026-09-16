@@ -23,3 +23,4 @@
   nuke();
   new MutationObserver(nuke).observe(document.body, { childList: true, subtree: true });
 })();
+ 
